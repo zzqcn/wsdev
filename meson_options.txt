@@ -1,0 +1,6 @@
+# Please keep these options sorted alphabetically.
+
+option('wireshark_lib_dir', type: 'string', value: '/home/zzq/dev/wireshark_build/run',
+	description: 'set the wireshark library directory')
+option('wireshark_src_dir', type: 'string', value: '/home/zzq/dev/wireshark',
+	description: 'set the wireshark source directory')
