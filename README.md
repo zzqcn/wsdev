@@ -8,7 +8,11 @@ See [my articles](https://www.yuque.com/zzqcn/opensource) about Wireshark to get
 
 This project uses [Meson build system](https://mesonbuild.com/).
 
-First you should get Wireshark code and build it, see [my article](https://www.yuque.com/zzqcn/opensource/pylrcy) for details. Second set your Wireshark source and build directory in `meson_options.txt`. Then run commands below to build:
+First you should get Wireshark code and build it, see [my article](https://www.yuque.com/zzqcn/opensource/pylrcy) for details. Second set your Wireshark source and build directory in `meson_options.txt`.
+
+**NOTE: I have changed some wireshark code for some reason, e.g. calling some API which was NOT exported by libwireshark.so. So you should use [Wireshark code in my branch](https://github.com/zzqcn/wireshark/tree/zzqcn) to build this project successfully.**
+
+Then run commands below to build:
 ```c
 $ meson <YOUR BUILD DIR>
 $ cd <YOUR BUILD DIR>
