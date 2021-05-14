@@ -41,3 +41,4 @@ wsdev_inc = [
 subdir('hello_glib')
 subdir('hello_wireshark')
 subdir('wmem')
+subdir('tvb')
